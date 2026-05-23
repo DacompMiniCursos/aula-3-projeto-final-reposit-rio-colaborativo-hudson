@@ -2,6 +2,8 @@
 # Autor: Hudson Rodrigo
 # Descricao: Calculadora com as 4 operacoes basicas
 
+print("Bem-vindo a calculadora do Hudson!")
+
 # Funcao de soma
 def somar(a, b):
     return a + b
