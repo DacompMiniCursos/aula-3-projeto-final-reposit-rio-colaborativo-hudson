@@ -1,19 +1,26 @@
 # Calculadora simples
+# Autor: Hudson Rodrigo
+# Descricao: Calculadora com as 4 operacoes basicas
 
+# Funcao de soma
 def somar(a, b):
     return a + b
 
+# Funcao de subtracao
 def subtrair(a, b):
     return a - b
 
+# Funcao de multiplicacao
 def multiplicar(a, b):
     return a * b
 
+# Funcao de divisao com protecao contra divisao por zero
 def dividir(a, b):
     if b == 0:
         return "Erro: divisao por zero"
     return a / b
 
+# Menu principal
 print("=== Calculadora ===")
 print("1 - Somar")
 print("2 - Subtrair")
